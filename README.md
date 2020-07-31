@@ -3,4 +3,4 @@ Développement de petits utilitaires de discussion avec certains modules Azure t
 
 Il s'agit d'une utilisation très simple des technologies Azure pour :
 
-Ecouter le message (une position xy) émit par une balise et envoyé à l'events Hub, pour ensuite reprojeter cette position de balise grâce à PostGreSQL + PostGIS embarqué dans Azure, stocker cette donnée dans un Append Blob Storage et dans le même temps envoyer ce message/cette position sur une file d'écoute au frontEnd pour réutiliser cette position xy transformée en Geojson, dans un webmapping temps réel
+Ecouter le message (une position xy) émit par une balise et envoyé à l'events Hub, pour ensuite reprojeter cette position de balise sur un linéaire grâce à PostGreSQL + PostGIS embarqué dans Azure, stocker cette donnée dans un Append Blob Storage et dans le même temps envoyer ce message/cette position sur une file d'écoute au frontEnd pour réutiliser cette position xy transformée en Geojson, dans un webmapping temps réel
